@@ -1,15 +1,17 @@
 cask "inline" do
-  version "2.0.1"
-  sha256 "21a6de0a33b09493ae88fb4d17e7e894cb23ec2fcdd3de00bd09a789832c76de"
+  version "2.0.2,18"
+  sha256 "2e9d196a7f547ad8c13f72eebc39fe9eaf979d4ffe5e9e3e27932a48318254e5"
 
-  url "https://github.com/Stillmake/Inline-Release/releases/download/#{version}/Inline.dmg"
+  url "https://github.com/Stillmake/releases/releases/download/inline-#{version.csv.first}-#{version.csv.second}/Inline.dmg"
   name "Inline"
   desc "Inline writing and dictionary assistant"
-  homepage "https://github.com/Stillmake/Inline-Release"
+  homepage "https://github.com/Stillmake/releases"
 
   livecheck do
-    url :url
-    strategy :github_latest
+    url "https://raw.githubusercontent.com/Stillmake/releases/main/inline/version.json"
+    strategy :json do |json|
+      json.map { |release| "#{release["version"]},#{release["build"]}" }
+    end
   end
 
   depends_on macos: :sequoia
