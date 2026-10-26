@@ -2,8 +2,7 @@ cask "actor" do
   version "2.0.1,314"
   sha256 "2c4c69ced54e543947e288fbf890b29fbcea003499b2766b860fc03a157d99be"
 
-  url "https://github.com/Stillmake/ActorApp/releases/download/#{version.csv.first}(#{version.csv.second})/Actor.dmg",
-      verified: "github.com/Stillmake/ActorApp/"
+  url "https://github.com/Stillmake/ActorApp/releases/download/#{version.csv.first}(#{version.csv.second})/Actor.dmg"
   name "Actor"
   desc "Terminal for agent-driven development"
   homepage "https://actorterm.com/"
@@ -16,7 +15,7 @@ cask "actor" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Actor.app"
 

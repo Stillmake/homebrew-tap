@@ -1,6 +1,8 @@
 # Stillmake Homebrew Tap
 
 ```bash
+brew tap stillmake/tap
+brew trust stillmake/tap   # Homebrew asks before loading third-party casks
 brew install --cask stillmake/tap/actor
 brew install --cask stillmake/tap/asterisk
 brew install --cask stillmake/tap/inline
