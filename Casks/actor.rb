@@ -5,7 +5,7 @@ cask "actor" do
   url "https://github.com/Stillmake/releases/releases/download/actor-#{version.csv.first}-#{version.csv.second}/Actor.dmg"
   name "Actor"
   desc "Terminal for agent-driven development"
-  homepage "https://actorterm.com/"
+  homepage "https://stillmake.com/actor"
 
   livecheck do
     url "https://raw.githubusercontent.com/Stillmake/releases/main/actor/version.json"
