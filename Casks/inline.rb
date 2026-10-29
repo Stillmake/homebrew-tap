@@ -1,6 +1,6 @@
 cask "inline" do
-  version "2.1,21"
-  sha256 "99a86d225e7b82f5953143b5f5ffdbaf32ce7aab4a005be9ab9b5f5634cfcbfa"
+  version "2.1.1,24"
+  sha256 "08bc790cc110552f7b223dda9854ce9f2fd6f14b55879e87933c7ba7fe784ec0"
 
   url "https://github.com/Stillmake/releases/releases/download/inline-#{version.csv.first}-#{version.csv.second}/Inline.dmg"
   name "Inline"
