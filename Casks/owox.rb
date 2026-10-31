@@ -1,6 +1,6 @@
 cask "owox" do
-  version "1.0.3,9"
-  sha256 "5330399dd8e05144baf8751ff26578a2a9e402c968f1f0941e284cefa71f4ed5"
+  version "1.0.4,14"
+  sha256 "1c2822ae123bc22cf2b353952b5ed69896a05c7a13d30bfafc74a73d34479a92"
 
   url "https://github.com/Stillmake/releases/releases/download/owox-#{version.csv.first}-#{version.csv.second}/OwoX.dmg"
   name "OwoX"
