@@ -1,26 +1,26 @@
 class UniCli < Formula
   desc "Command-line client for remote MCP servers"
   homepage "https://github.com/rijieli/linear-cli"
-  version "0.5.2"
+  version "0.5.3"
 
   on_macos do
     on_arm do
       url "https://github.com/rijieli/uni-cli/releases/download/v#{version}/uni-cli_v#{version}_darwin_arm64.tar.gz"
-      sha256 "c38d3d7fe5c632dce2b70d1afd0bdd650cdc117f086a4cf50bf2f267d532f3d4"
+      sha256 "859c2d59fc009d11aa8f006b2c842cba7ed82942ff8b4def1fe85ffc2b681629"
     end
     on_intel do
       url "https://github.com/rijieli/uni-cli/releases/download/v#{version}/uni-cli_v#{version}_darwin_amd64.tar.gz"
-      sha256 "aa3fb8e9a5dac6548770fa38e589517a0e3aeca6f2c904b90e9fecf809ed85d9"
+      sha256 "fddedcbca25ad15d64064e2aee97af3e4504ee20006a701f2fd93fe6c8d48d97"
     end
   end
   on_linux do
     on_arm do
       url "https://github.com/rijieli/uni-cli/releases/download/v#{version}/uni-cli_v#{version}_linux_arm64.tar.gz"
-      sha256 "35645e138592d7372c685dc2f1e89c716785954911ce3ea24e87048a7cf7bea7"
+      sha256 "b5af848e4f6936972499056f38491550134bbf72e0b2db390ecc269e5aa26c67"
     end
     on_intel do
       url "https://github.com/rijieli/uni-cli/releases/download/v#{version}/uni-cli_v#{version}_linux_amd64.tar.gz"
-      sha256 "06041e92ab556e1f4aa904b6a0f0a2b1d16d2d6889dd7f17f38fd726c7e8820d"
+      sha256 "185364d3dd3795ae56bbaf65c0cb16e73dd43c9e74c0cc3d0aa5aa5936ccea0d"
     end
   end
 
