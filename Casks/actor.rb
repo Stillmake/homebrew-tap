@@ -1,6 +1,6 @@
 cask "actor" do
-  version "2.8.4,481"
-  sha256 "069071d9a1e5ae7a557547016e13c2806e3c9f77e4ed194d90b4f032306f5c03"
+  version "2.8.5,488"
+  sha256 "2527709b25ce10a3bd93795d1cf750a56c97e8eec47a599ac83fd28eab82ebb3"
 
   url "https://github.com/Stillmake/releases/releases/download/actor-#{version.csv.first}-#{version.csv.second}/Actor.dmg"
   name "Actor"
