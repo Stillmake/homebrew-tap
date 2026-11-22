@@ -1,6 +1,6 @@
 cask "moof" do
-  version "1.1.2,42"
-  sha256 "27460c791e8afffabca8b536d194c81356f9e6b4f0a5249dc6a28d5090e28219"
+  version "1.1.3,47"
+  sha256 "1b881d73460c5f1c6d18f28432eb35f29a896fd17147553e4f48f40aa721999b"
 
   url "https://github.com/Stillmake/releases/releases/download/moof-#{version.csv.first}-#{version.csv.second}/Moof.dmg"
   name "Moof"
